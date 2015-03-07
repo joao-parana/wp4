@@ -1,0 +1,15 @@
+# Application
+
+# WordPress
+
+# WP-CLI
+
+# Dotenv
+
+# Vendor (e.g. Composer)
+
+# Node Package Manager
+node_modules
+
+# Vagrant
+.vagrant
