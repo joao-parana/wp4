@@ -1,5 +1,5 @@
 # wp4
-f
+
 ## Configuração
     cd example.dev/web/app/themes/
     brew doctor 
