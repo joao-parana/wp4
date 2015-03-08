@@ -1,4 +1,17 @@
 # wp4
+f
+## Configuração
+    cd example.dev/web/app/themes/
+    brew doctor 
+    brew update
+    brew upgrade node
+    sudo npm install -g gulp bower
+    curl -o sage.zip https://codeload.github.com/roots/sage/zip/8.0.1
+    jar -tvf  sage.zip
+    mv sage-8.0.1 sage
+    jar -tvf  sage.zip
+    rm sage.zip 
+    ls -lA
 
 ## Workflow para usar este projeto
 
@@ -15,6 +28,14 @@
     #
     # Faça desenvolvimento e testes 
     # 
+    
+    cd ../example.dev/web/app/themes/sage
+    npm install
+    bower install
+    open http://example.dev
+    gulp
+    # ...
+    #
     # Salve no github
     #
     git status
